@@ -1,6 +1,6 @@
 {
   "name": "open-wiki",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Open-source code wiki generator powered by tree-sitter and LLMs",
   "type": "module",
   "main": "./dist/cli.js",
@@ -16,10 +16,33 @@
     "documentation",
     "code-wiki",
     "tree-sitter",
-    "llm"
+    "llm",
+    "mcp",
+    "ai",
+    "cli"
   ],
-  "author": "",
+  "author": {
+    "name": "Adib Mohsin",
+    "url": "https://github.com/pacifio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pacifio/open-wiki.git"
+  },
+  "homepage": "https://github.com/pacifio/open-wiki#readme",
+  "bugs": {
+    "url": "https://github.com/pacifio/open-wiki/issues"
+  },
   "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "files": [
+    "dist",
+    "template",
+    "README.md",
+    "LICENSE"
+  ],
   "dependencies": {
     "@ai-sdk/anthropic": "^1.2.0",
     "@ai-sdk/google": "^1.2.0",
