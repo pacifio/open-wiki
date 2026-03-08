@@ -1,0 +1,24 @@
+---
+title: Welcome to open-wiki
+description: Index any codebase and generate documentation with LLMs
+---
+
+## Getting Started
+
+Use the `ow` CLI to index a project:
+
+```bash
+ow /path/to/your/project
+```
+
+Then open [http://localhost:8383](http://localhost:8383) to browse generated docs.
+
+## Commands
+
+| Command | Description |
+|---------|-------------|
+| `ow [path]` | Index a project |
+| `ow serve` | Start the docs server |
+| `ow list` | List indexed projects |
+| `ow config set-key <provider> <key>` | Set an API key |
+| `ow setup --reset` | Reinstall the docs app |

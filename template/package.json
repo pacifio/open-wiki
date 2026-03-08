@@ -1,0 +1,11 @@
+{
+  "name": "open-wiki-app",
+  "version": "0.1.0",
+  "private": true,
+  "_note": "Versions are written by the ow CLI at setup time (src/storage/setup.ts). Do not add dependencies here.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  }
+}
